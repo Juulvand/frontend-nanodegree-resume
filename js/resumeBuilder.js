@@ -4,12 +4,15 @@
 	console.log(STUFF);  //write in the console!!
 */ 
 
-var formattedName = HTMLheaderName.replace("%data%", "Julia van Deursen");
-var formattedRole = HTMLheaderRole.replace("%data%", "Student");
+var name = "Boba Fett"
+var role = "Bounty Hunter"
+
+var formattedName = HTMLheaderName.replace("%data%", name);
+var formattedRole = HTMLheaderRole.replace("%data%", role);
 
 $("#header").append(formattedName);
 $("#header").append(formattedRole);
-
+ 
 
 
 
